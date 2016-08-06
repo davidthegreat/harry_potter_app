@@ -1,0 +1,22 @@
+{
+  "name": "harry_potter_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidthegreat/harry_potter_app.git"
+  },
+  "author": "David Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidthegreat/harry_potter_app/issues"
+  },
+  "homepage": "https://github.com/davidthegreat/harry_potter_app#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
