@@ -6,6 +6,9 @@ app.set('view engine', 'ejs');//error if no view engine
 
 var routes = require('./routes')
 
+var path = require('path');
+app.use(express.static(path.join(__dirname, 'public')))//app will look in public directory for all static images
+
 //Routes
 
 // Home
