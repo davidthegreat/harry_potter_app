@@ -22,3 +22,15 @@
   font-size: 1.20em;
   letter-spacing: 0.4px;
 }
+
+#posters-wrapper {
+	padding-top: 75px;
+}
+
+.poster {
+  width: 25%;
+  margin-right: 4%;
+  display: inline-block;
+/*  position: relative;
+*/}
+
