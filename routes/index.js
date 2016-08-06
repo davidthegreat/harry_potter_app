@@ -1,7 +1,11 @@
+var moviesJSON = require('../movies.json');
+
 exports.home = function(req, res){
+	var movies = moviesJSON.movies;
+
 	res.render('home',{
 		title: "Harry Potter",
-		movies: ["first","second","third"]
+		movies: movies
 	});
 };
 
