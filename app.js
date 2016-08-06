@@ -4,6 +4,7 @@ var app = express();
 
 app.set('view engine', 'ejs');//error if no view engine
 
+var routes = require('./routes')
 
 //Routes
 
