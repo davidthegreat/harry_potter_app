@@ -2,11 +2,17 @@ var express = require('express');
 
 var app = express();
 
+app.set('view engine', 'ejs');//error if no view engine
+
+
 //Routes
 
 // Home
 app.get('/', function(req, res){
-	res.send("this is a server response on the home page")
+	res.render('home',{
+		title: "Harry Potter",
+		movies: ["first","second","third"]
+	});
 });
 
 // movie_show
