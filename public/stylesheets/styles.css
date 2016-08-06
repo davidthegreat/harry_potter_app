@@ -34,3 +34,37 @@
 /*  position: relative;
 */}
 
+.navbar-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 12px;
+}
+
+.dropdown.open .dropdown-menu li a {
+  transition: 0.5s ease-in-out;
+}
+
+.dropdown.open .dropdown-menu li a:hover {
+  color: #fff;
+}
+
+.navbar-nav > li:first-child {
+  margin-right: 25px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: transparent;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+  background-color: transparent;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
