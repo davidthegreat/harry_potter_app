@@ -2,6 +2,9 @@ var express = require('express');
 
 var app = express();
 
+app.set('view engine', 'ejs');//error if no view engine
+
+
 //Routes
 
 // Home
