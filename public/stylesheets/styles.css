@@ -31,8 +31,13 @@
   width: 25%;
   margin-right: 4%;
   display: inline-block;
-/*  position: relative;
-*/}
+  position: relative;
+}
+
+.navbar-fixed-top {
+
+	margin-right: 28px;
+}
 
 .navbar-nav li a {
   color: #fff;
@@ -66,5 +71,34 @@
   background-color: rgba(0,0,0,0.5);
 }
 
+.poster-info-overlay {
+  position: absolute;
+  background: rgba(0,0,0,0.7);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  padding: 30px 15px;
+}
+.poster-info-overlay h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;
+}
+.poster-info-overlay h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;
+  margin-top: 15px;
+}
+.poster:hover .poster-info-overlay {
+  opacity: 1;
+}
 
 
