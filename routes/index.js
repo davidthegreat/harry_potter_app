@@ -11,8 +11,12 @@ exports.home = function(req, res){
 
 // movie_show
 exports.movie_show = function(req, res){
+	var movies = moviesJSON.movies;
 	var part = req.params.part;
-	res.send("this is the page for episode " + part);
+	res.render('movie_show', {
+		movies: movies
+		
+	});
 };
 
 //notFound
