@@ -20,6 +20,4 @@ app.get('/harry_potter/:part?', routes.movie_show);
 //notFound
 app.get('*', routes.notFound);
 
-app.listen(3000, function(){
-	console.log("The application is running in localhost:3000")
-})
+app.listen(process.env.PORT || 3000);
