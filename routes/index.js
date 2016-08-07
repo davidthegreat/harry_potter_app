@@ -27,7 +27,10 @@ exports.movie_show = function(req, res){
 	});
 
 	}else {
-		res.send("This is not the page you are looking for.")
+		res.render('notFound', {
+			movies: movies,
+			title: 'This is not the page you are looking for'
+		});
 	}
 
 
