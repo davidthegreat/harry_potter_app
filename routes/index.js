@@ -17,9 +17,12 @@ exports.movie_show = function(req, res){
 	if (part >=1 && part <= 6){
 		var movie = movies[part - 1];
 		var title = movie.title;
+		var main_characters = movie.main_characters
 		res.render('movie_show', {
 			movies: movies,
-			title: title
+			title: title,
+			movie: movie,
+			main_characters: main_characters
 		
 	});
 
