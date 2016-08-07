@@ -1,3 +1,10 @@
+
+
+.content-padding {
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
 #jumbo-image {
 	height: 550px;
 	width: 100%
@@ -127,3 +134,41 @@
   font-size: 1.20em;
   letter-spacing: 0.4px;
 }
+
+.poster-wrapper {
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.description-wrapper {
+  float: right;
+  margin-left: 5%;
+  width: 65%;
+  margin-top: 50px;
+}
+
+.movie-header {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.95em;
+  letter-spacing: 0.4px;
+  padding: 15px 25px;
+  border: 2px solid #333;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.description-wrapper p {
+  line-height: 1.95;
+  letter-spacing: 0.3px;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
