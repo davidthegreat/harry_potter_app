@@ -13,13 +13,21 @@ exports.home = function(req, res){
 exports.movie_show = function(req, res){
 	var movies = moviesJSON.movies;
 	var part = req.params.part;
-	var movie = movies[part - 1];
-	var title = movie.title;
-	res.render('movie_show', {
-		movies: movies,
-		title: title
+
+	if (part >=1 && part <= 6){
+		var movie = movies[part - 1];
+		var title = movie.title;
+		res.render('movie_show', {
+			movies: movies,
+			title: title
 		
 	});
+
+	}else {
+		res.send("This is not the page you are looking for.")
+	}
+
+
 };
 
 //notFound
