@@ -1,0 +1,57 @@
+{
+  "movies": [{
+    "title" : "Harry Potter and the Sorcerer's Stone ",
+    "part" : "1",
+    "main_characters" : ["Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Neville Longbottom"],
+    "description" : "A boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.",
+    "poster" : "harry_potter_1_poster.png",
+    "hero_image" : "harry_potter_1_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Chamber of Secrets",
+    "part" : "2",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Gilderoy Lockhart"],
+    "description" : "Harry Potter is in his second year of Hogwarts School of Witchcraft and Wizardry. He is visited by a house-elf named Dobby and warned not to go back to Hogwarts. Harry ignores his warning, and returns. He is still famous, although still disliked by Snape, Malfoy, and the rest of the Slytherins. But then, strange things start to happen. People are becoming petrified, and no-one knows what is doing it. Harry keeps hearing a voice.. a voice which seems to be coming from within the walls. They are told the story of the Chamber of Secrets. It is said that only Salazar Slytherin's true descendent will be able to open it. Harry, it turns out, is a Parsel-tongue. This means that he is able to speak/understand snakes. Everyone thinks that it's him that has opened the Chamber of Secrets because that is what Slytherin was famous for.",
+    "poster" : "harry_potter_2_poster.png",
+    "hero_image" : "harry_potter_2_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Prisoner of Azkaban",
+    "part" : "3",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Sirius Black"],
+    "description" : "Harry's life is in mortal danger yet again, this time more than ever. First, a killer named Sirus Black has escaped from Azkaban Prison, and it seems that he broke out just to finish what his master wanted to do 13 years ago: kill Harry Potter!. Also, for Harry's protection, Azkaban has sent hundreds of Dementors to guard Hogwarts in an attempt to catch Black. But will they turn out to be a great help or a big mistake?",
+    "poster" : "harry_potter_3_poster.png",
+    "hero_image" : "harry_potter_3_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Goblet of Fire",
+    "part" : "4",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Cedric Diggory"],
+    "description" : "Harry Potter returns to Hogwarts for his fourth year, where the Trizwizard tournament is becoming ready to begin. Students must be over 17 to enter, with the winner receiving eternal glory. Harry can't enter it this year...or can he. When his name is read out from the Goblet of Fire, everyone assumes that Harry Potter has cheated. Harry insists that he never placed his name in there, with someone else behind it. But Who? Harry must now survive through dragons, sea creatures and a terrifying maze, all before coming face-to-face with a particular dark wizard.",
+    "poster" : "harry_potter_4_poster.png",
+    "hero_image" : "harry_potter_4_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Order of the Phoenix",
+    "part" : "5",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Bellatrix Lestrange", " Dranco Malfoy"],
+    "description" : "As another year begins for Harry, at Hogwarts school of Witchcraft and Wizardry so does the never-ending articles stating that he and Dumbledore are insane. As the ministry starts to invent new and malicious lies about Harry's account on Voldemort's return, Hogwarts begins to change for the worse as the ministry sends in their cure for all the insanity, Professor Dolores Jane Umbridge. As she begins to inflict her rules and regulations on the students at Hogwarts they begin to find that with her as their teacher, they'll never be ready for the outside world. So Harry along with his friends decides to take things into their own hands and begin to learn magic the real way. As Harry starts having visions of terrible events happening with the Ministries very walls he decides to take action, leading himself and his friends into battle, ultimately teaching them what friendship, loyalty and sacrifice really means.",
+    "poster" : "harry_potter_5_poster.png",
+    "hero_image" : "harry_potter_5_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Half-Blood Prince",
+    "part" : "6",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Ginny Weasley"],
+    "description" : "In Harry Potter's sixth year at Hogwarts School of Witchcraft, Harry finds a book marked mysteriously, 'This book is the property of the Half Blood Prince,' which helps him excel at Potions class and teaches him a few dark and dangerous ones along the way. Meanwhile, Harry is taking private lessons with Dumbledore in order to find out about Voldemort's past so they can find out what might his only weakness.",
+    "poster" : "harry_potter_6_poster.png",
+    "hero_image" : "harry_potter_6_hero.jpg"
+  }]
+
+
+}
