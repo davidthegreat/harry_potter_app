@@ -167,7 +167,14 @@
   margin-bottom: 25px;
 }
 
-
+.main-characters ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 0.3px;
+  font-size: 13px;
+}
 
 
 
