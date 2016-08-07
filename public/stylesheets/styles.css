@@ -158,6 +158,7 @@
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 15px;
+  margin-left: 5%;
 }
 
 .description-wrapper p {
@@ -174,8 +175,37 @@
   margin-bottom: 15px;
   letter-spacing: 0.3px;
   font-size: 13px;
+  margin-left: 5%;
 }
 
+.main-characters ul {
+  padding-left: 0px;
+}
+
+#jumbo-image-notFound{
+  height: 550px;
+  width: 100%;
+  background-color: #444;
+  background-image: url('../images/404.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+#jumbo-image-notFound #jumbo-title {
+
+    position: absolute;
+  background-color: #fff;
+  padding: 10px 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
 
 
-
+  bottom: 0;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.20em;
+  letter-spacing: 0.4px;
+}
