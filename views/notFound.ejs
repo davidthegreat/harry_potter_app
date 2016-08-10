@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="backgroundColor">
   <head>
   
   	<% include partials/head.ejs %>
@@ -7,11 +7,13 @@
   </head>
   <body>
   	<% include partials/header.ejs%>
-	  <div id="jumbo-image-notFound">
-	  	<h1 id="jumbo-title"><%= title%></h1>
-	  </div>
+    <div class="backgroundColor">
+  	  <div id="jumbo-image-notFound">
+  	  	<h1 id="jumbo-title"><%= title%></h1>
+  	  </div>
 
-    <% include partials/footer.ejs %>
-    <% include partials/scripts.ejs %> 
+      <% include partials/footer.ejs %>
+      <% include partials/scripts.ejs %> 
+    </div>
   </body>
 </html>
