@@ -14,7 +14,7 @@ exports.movie_show = function(req, res){
 	var movies = moviesJSON.movies;
 	var part = req.params.part;
 
-	if (part >=1 && part <= 6){
+	if (part >=1 && part <= 8){
 		var movie = movies[part - 1];
 		var title = movie.title;
 		var main_characters = movie.main_characters

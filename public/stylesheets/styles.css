@@ -1,4 +1,6 @@
-
+.backgroundColor {
+  background-color: #0d0d0d;
+}
 
 .content-padding {
   padding-left: 11%;
@@ -11,12 +13,13 @@
 	background-color: #444;
 	background-image: url('../images/harry.jpg');
 	background-size: cover;
+  position: relative;
 
 }
 #jumbo-image #jumbo-title {
 
     position: absolute;
-  background-color: #fff;
+  background-color: #000;
   padding: 10px 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -28,6 +31,7 @@
   font-weight: 400;
   font-size: 1.20em;
   letter-spacing: 0.4px;
+  color: white;
 }
 
 #posters-wrapper {
@@ -121,7 +125,7 @@
 #jumbo-image-show #jumbo-title {
 
     position: absolute;
-  background-color: #fff;
+  background-color: #000;
   padding: 10px 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -133,6 +137,7 @@
   font-weight: 400;
   font-size: 1.20em;
   letter-spacing: 0.4px;
+  color: white;
 }
 
 .poster-wrapper {
@@ -154,11 +159,12 @@
   font-size: 0.95em;
   letter-spacing: 0.4px;
   padding: 15px 25px;
-  border: 2px solid #333;
+  border: 2px solid #fff;
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 15px;
   margin-left: 5%;
+  color: white;
 }
 
 .description-wrapper p {
@@ -166,6 +172,8 @@
   letter-spacing: 0.3px;
   font-size: 13px;
   margin-bottom: 25px;
+  color: white;
+
 }
 
 .main-characters ul li {
@@ -176,6 +184,7 @@
   letter-spacing: 0.3px;
   font-size: 13px;
   margin-left: 5%;
+  color: white;
 }
 
 .main-characters ul {
@@ -196,7 +205,7 @@
 #jumbo-image-notFound #jumbo-title {
 
     position: absolute;
-  background-color: #fff;
+  background-color: #000;
   padding: 10px 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -208,6 +217,7 @@
   font-weight: 400;
   font-size: 1.20em;
   letter-spacing: 0.4px;
+  color: white;
 }
 
 footer {
@@ -219,14 +229,14 @@ footer::before {
   display: block;
   width: 90%;
   margin-bottom: 20px;
-  border-top: 1px solid #dedede;
+  border-top: 1px solid #fff;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer p {
   float: left;
-  color: #999;
+  color: #fff;
   letter-spacing: 0.3px;
   font-size: 12px;
   padding-bottom: 20px;
@@ -238,18 +248,7 @@ footer .social-media-icons {
 
 footer .social-media-icons i {
   font-size: 24px;
-  color: #999;
+  color: #fff;
   transition: 0.5s ease-in-out;
 }
 
-footer .social-media-icons a:first-child {
-  margin-right: 20px;
-}
-
-footer .social-media-icons a:last-child:hover i {
-  color: #af0b0c;
-}
-
-footer .social-media-icons a:first-child:hover i {
-  color: #333;
-}

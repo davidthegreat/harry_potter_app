@@ -51,7 +51,26 @@
     "description" : "In Harry Potter's sixth year at Hogwarts School of Witchcraft, Harry finds a book marked mysteriously, 'This book is the property of the Half Blood Prince,' which helps him excel at Potions class and teaches him a few dark and dangerous ones along the way. Meanwhile, Harry is taking private lessons with Dumbledore in order to find out about Voldemort's past so they can find out what might his only weakness.",
     "poster" : "harry_potter_6_poster.png",
     "hero_image" : "harry_potter_6_hero.jpg"
-  }]
+  },
+
+  {
+    "title" : "Harry Potter and the Deathly Hallows - Part 1",
+    "part" : "7",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Lord Voldemort"],
+    "description" : "Without the guidance and protection of their professors, Harry , Ron  and Hermione  begin a mission to destroy the Horcruxes, the sources of Voldemort's immortality. Though they must rely on one another more than ever, dark forces threaten to tear them apart. Voldemort's Death Eaters have seized control of the Ministry of Magic and Hogwarts, and they are searching for Harry -- even as he and his friends prepare for the ultimate showdown",
+    "poster" : "harry_potter_7_poster.png",
+    "hero_image" : "harry_potter_7_hero.jpg"
+  },
+
+  {
+    "title" : "Harry Potter and the Deathly Hallows - Part 1",
+    "part" : "8",
+    "main_characters" : [ "Harry Potter","Hermione Granger", "Ron Weasley", "Professor Severus Snape", "Dranco Malfoy", "Lord Voldemort"],
+    "description" : "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "poster" : "harry_potter_8_poster.png",
+    "hero_image" : "harry_potter_8_hero.jpg"
+  }
+]
 
 
 }
