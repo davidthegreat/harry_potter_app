@@ -13,6 +13,7 @@
 	background-color: #444;
 	background-image: url('../images/harry.jpg');
 	background-size: cover;
+  position: relative;
 
 }
 #jumbo-image #jumbo-title {
