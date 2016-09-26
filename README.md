@@ -1,4 +1,4 @@
 # harry_potter_movie_app
 
-An app made on express.js
+A harry potter app made on express.js and node.js
 http://harry-potter-movies.herokuapp.com
